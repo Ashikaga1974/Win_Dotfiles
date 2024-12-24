@@ -1,24 +1,30 @@
 {
   "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.31/schema.bar.json",
-  "monitor": {
-    "index": 0,
-    "work_area_offset": {
-      "left": 0,
-      "top": 45,
-      "right": 0,
-      "bottom": 40
+
+  "center_widgets": [
+    {
+      "Date": {
+        "enable": true,
+        "format": "DateMonthYear"
+      }
+    },
+    {
+      "Time": {
+        "enable": true,
+        "format": "TwentyFourHour"
+      }
     }
-  },
+  ],
+
   "font_family": "JetBrains Mono",
-  "transparency_alpha": 0,
-  
-"grouping" :{
-  "kind": "Alignment",
-  "rounding": 5,
-  "style":"Default",
-  "transparency_alpha": 255,
-  
-},
+
+  "grouping" :{
+    "kind": "Alignment",
+    "rounding": 5,
+    "style":"Default",
+    "transparency_alpha": 255
+  },
+
   "left_widgets": [
     {
       "Komorebi": {
@@ -36,20 +42,17 @@
       }
     }
   ],
-  "center_widgets": [
-    {
-      "Date": {
-        "enable": true,
-        "format": "DateMonthYear"
-      }
-    },
-    {
-      "Time": {
-        "enable": true,
-        "format": "TwentyFourHour"
-      }
+
+  "monitor": {
+    "index": 0,
+    "work_area_offset": {
+      "left": 0,
+      "top": 45,
+      "right": 0,
+      "bottom": 40
     }
-  ],
+  },
+
   "right_widgets": [
     {
       "Media": {
@@ -59,20 +62,20 @@
     {
       "Storage": {
         "enable": false,
-                        "label_prefix": "Icon"
+        "label_prefix": "Icon"
       }
     },
     {
       "Cpu": {
         "enable": true,
         "data_refresh_interval": 5,
-                "label_prefix": "Icon"
+        "label_prefix": "Icon"
       }
     },    
     {
       "Memory": {
         "enable": true,
-                                "label_prefix": "Icon"
+        "label_prefix": "Icon"
       }
     },
     {
@@ -82,13 +85,8 @@
         "show_network_activity": true,
         "show_default_interface": false
       }
-    },
-
-
-    {
-      "Battery": {
-        "enable": true
-      }
     }
-  ]
+  ],
+
+  "transparency_alpha": 0
 }
