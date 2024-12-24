@@ -1,0 +1,79 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.31/schema.json",
+  "app_specific_configuration_path": "$Env:KOMOREBI_CONFIG_HOME/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 5,
+  "default_container_padding": 5,
+  "border": true,
+  "border_width": 3,
+  "border_offset": -1,
+  "mouse_follows_focus": true,
+  "resize_delta": 100,
+  "theme": {
+    "palette": "Base16",
+    "name": "Windows10Light",
+    "unfocused_border": "Base01",
+    "bar_accent": "Base0D"
+  },
+  "stackbar": {
+    "height": 40,
+    "mode": "OnStack",
+    "tabs": {
+      "width": 300
+    }
+  },
+  "monitors": [
+    {
+      "work_area_offset": {
+        "left": 0,
+        "top": 45,
+        "right": 0,
+        "bottom": 40
+      },
+      "workspaces": [
+        {
+          "name": "Work",
+          "layout": "UltrawideVerticalStack"
+        },
+        {
+          "name": "Mail",
+          "layout": "UltrawideVerticalStack",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "olk.exe"
+            }
+          ]
+        },
+        {
+          "name": "III",
+          "layout": "UltrawideVerticalStack"
+        },
+        {
+          "name": "IV",
+          "layout": "UltrawideVerticalStack"
+        },
+        {
+          "name": "V",
+          "layout": "Rows"
+        }
+      ]
+    }
+  ],
+  "animation": {
+    "enabled": false,
+    "duration": 200,
+    "style": "Linear",
+    "fps": 120 
+  },
+  "transparency": true,
+  "transparency_alpha": 240,
+  "transparency_ignore_rules": [
+    {
+      "kind": "Exe",
+      "id": "komorebi-bar.exe",
+      "matching_strategy": "Equals"
+    }
+  ]
+}
