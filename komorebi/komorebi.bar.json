@@ -1,4 +1,7 @@
 {
+
+  "_comment": "JSON File for KOMOREBI-BAR",
+
   "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.31/schema.bar.json",
 
   "center_widgets": [
@@ -47,7 +50,7 @@
     "index": 0,
     "work_area_offset": {
       "left": 0,
-      "top": 45,
+      "top": 40,
       "right": 0,
       "bottom": 40
     }

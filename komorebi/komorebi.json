@@ -55,7 +55,7 @@
   "resize_delta": 100,
   "theme": {
     "palette": "Base16",
-    "name": "Windows10Light",
+    "name": "GoogleLight",
     "unfocused_border": "Base01",
     "bar_accent": "Base0D"
   },
