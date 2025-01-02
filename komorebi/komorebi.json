@@ -13,7 +13,19 @@
   "cross_monitor_move_behaviour": "Insert",
   "default_workspace_padding": 5,
   "default_container_padding": 5,
-  "mouse_follows_focus": true,
+  "ignore_rules": [
+    {
+      "kind": "Exe",
+      "id": "ChatGPT.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "SwyxIt!.exe",
+      "matching_strategy": "Equals"
+    }
+  ],
+  "mouse_follows_focus": false,
   "monitors": [
     {
       "work_area_offset": {
