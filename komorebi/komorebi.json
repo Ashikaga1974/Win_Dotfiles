@@ -23,6 +23,16 @@
       "kind": "Exe",
       "id": "SwyxIt!.exe",
       "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "VirtualBox.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "VirtualBoxVM.exe",
+      "matching_strategy": "Equals"
     }
   ],
   "mouse_follows_focus": false,
